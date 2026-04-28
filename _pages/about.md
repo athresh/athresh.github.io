@@ -29,12 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI researcher at the University of Texas at Dallas, where I recently
-defended my Ph.D. dissertation in computer science. My research focuses on deep
-generative models, tractable probabilistic inference, knowledge-based systems
-and data- and compute-efficient learning, with an emphasis on building machine
-learning methods that are both practically effective and theoretically
-grounded.
+I am an AI researcher at the University of Texas at Dallas, where I recently defended my Ph.D. dissertation in computer science. My research focuses on deep generative models, tractable probabilistic inference, knowledge-based systems, causal inference, and data- and compute-efficient learning, with an emphasis on building machine learning methods that are both practically effective and theoretically grounded, including applications of AI in healthcare.
 
 I am particularly interested in settings where data are limited, noisy, or
 costly to acquire, and in developing approaches that make learning more
