@@ -17,8 +17,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "curriculum vitae",
+          title: "CV",
+          description: "Athresh Karanam",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
