@@ -1,97 +1,202 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. in Computer Science
+      institution: University of Texas at Dallas
+      location: Dallas, TX
+      year: May 2026
+      maindescription: >
+        <strong>Dissertation:</strong> <em>Effective, Efficient, and Explainable
+        Learning in Data-Scarce and Noisy Domains</em><br>
+        <strong>Advisor:</strong> Prof. Sriraam Natarajan
+    - title: B.Tech. in Civil Engineering
+      institution: Indian Institute of Technology, Guwahati
+      location: Guwahati, India
+      year: May 2015
+      maindescription: >
+        <strong>Advisor:</strong> Prof. Subashisa Dutta
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Deep Tractable Probabilistic Models, Human-Allied Learning, Explainable AI, Data- and Compute-Efficient Learning, Submodular Optimization, Causal Inference, Generalizable ML, AI for Healthcare.
+
+- title: Technical Skills
+  type: list
+  contents:
+    - Python, PyTorch, Java, MATLAB, R, Git, SQL.
+
+- title: Conference Papers
+  type: time_table
+  contents:
+    - title: A Unified Framework for Human-Allied Learning of Probabilistic Circuits
+      institution: AAAI Conference on Artificial Intelligence (AAAI 2025)
+      year: 2025
+      maindescription: >
+        <strong>Karanam, A.</strong>, Mathur, S., Sidheekh, S., Natarajan, S.
+    - title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
+      institution: Advances in Neural Information Processing Systems (NeurIPS 2022)
+      year: 2022
+      maindescription: >
+        <strong>Karanam, A.</strong>, Killamsetty, K., Kokel, H., Iyer, R.
+    - title: Explaining Deep Tractable Probabilistic Models - The Sum-Product Network Case
+      institution: International Conference on Probabilistic Graphical Models (PGM 2022)
+      year: 2022
+      maindescription: >
+        <strong>Karanam, A.</strong>, Mathur, S., Radivojac, P., Kersting, K.,
+        Natarajan, S.
+    - title: Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes
+      institution: Pacific Symposium on Biocomputing (PSB 2023)
+      year: 2023
+      maindescription: >
+        Mathur, S., <strong>Karanam, A.</strong>, Radivojac, P., Haas, D. M.,
+        Kersting, K., Natarajan, S.
+    - title: Interventional Sum-Product Networks - Causal Inference with Tractable Probabilistic Models
+      institution: Advances in Neural Information Processing Systems (NeurIPS 2021)
+      year: 2021
+      maindescription: >
+        Zecevic, M., Dhami, D. S., <strong>Karanam, A.</strong>, Natarajan, S.,
+        Kersting, K.
+    - title: A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes
+      institution: International Conference on Artificial Intelligence in Medicine (AIME 2021)
+      year: 2021
+      maindescription: >
+        <strong>Karanam, A.</strong>, Hayes, A. L., Kokel, H., Haas, D. M.,
+        Radivojac, P., Natarajan, S.
+
+- title: Workshop Papers
+  type: time_table
+  contents:
+    - title: Test-Time Active Feature Selection through Tractable Acquisition Functions
+      institution: Tractable Probabilistic Modeling Workshop, UAI 2023
+      year: 2023
+      maindescription: >
+        <strong>Karanam, A.</strong>, Natarajan, S.
+    - title: Bayesian Learning of Probabilistic Circuits with Domain Constraints
+      institution: Tractable Probabilistic Modeling Workshop, UAI 2023
+      year: 2023
+      maindescription: >
+        <strong>Karanam, A.</strong>, Mathur, S., Sidheekh, S., Natarajan, S.
+
+- title: Tutorials
+  type: time_table
+  contents:
+    - title: Deep Tractable Probabilistic Models
+      institution: Tutorial at CODS-COMAD 2024
+      year: 2024
+      maindescription: >
+        Mathur, S., Sidheekh, S., <strong>Karanam, A.</strong>, Natarajan, S.
+
+- title: Preprints and Under Review
+  type: time_table
+  contents:
+    - title: Neurosymbolic Imitation Learning with Human Guidance - A Privileged Information Approach
+      institution: Under review
+      year: 2026
+      maindescription: >
+        Prabhakar, N., Balaji, V., <strong>Karanam, A.</strong>, Kersting, K.,
+        Natarajan, S.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Ph.D. Researcher
+      institution: Starling Lab, University of Texas at Dallas
+      year: 2020-2026
+      maindescription: >
+        <strong>Advisor:</strong> Prof. Sriraam Natarajan<br>
+        Dissertation research on deep tractable probabilistic models,
+        human-allied learning, and explainability in data-scarce domains.
+        Developed a unified framework for incorporating expert domain knowledge
+        into probabilistic circuits (AAAI 2025); introduced CSI-tree
+        representations for extracting human-interpretable context-specific
+        independencies from learned models (PGM 2022); proposed
+        <em>Orient</em>, a submodular mutual information-based data subset
+        selection framework for domain adaptation with 2-3&times; training
+        speedups (NeurIPS 2022); and applied probabilistic models to clinical
+        datasets for gestational diabetes prediction and knowledge extraction.
+    - title: AI Research Intern
+      institution: Altir LLC
+      year: 2025
+      maindescription: >
+        Developed an interpretable, uncertainty-aware LLM agent by augmenting
+        large language models with local tractable probabilistic reasoning,
+        improving reliability through faithful uncertainty quantification.
+    - title: Machine Learning Intern
+      institution: RelationalAI Inc.
+      year: 2020
+      maindescription: >
+        Built an interactive product recommendation tool using tractable
+        probabilistic models; trained and evaluated boosted relational models
+        on an online vendor catalog.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Co-Instructor - Advanced Machine Learning (Industry Course)
+      institution: Vistra Corporation / University of Texas at Dallas
+      year: Aug. - Oct. 2021
+      maindescription: >
+        Co-designed and co-taught an eight-week intensive ML course for
+        engineers at Vistra Corporation, with Prof. Sriraam Natarajan and
+        Dr. Harsha Kokel. The curriculum covered core ML algorithms,
+        probabilistic reasoning, and neural networks, with emphasis on
+        motivation, transfer, and deployment in high-stakes settings.
+        Teaching working professionals sharpened my focus on connecting
+        formalism to problems that matter to practitioners.
+    - title: Tutorial Presenter - Tractable Probabilistic Models
+      institution: Indian Institute of Technology, Madras
+      year: Mar. 2023
+      maindescription: >
+        Delivered a three-day tutorial on tractable probabilistic models to
+        researchers and ML practitioners, co-presented with Prof. Natarajan,
+        Dr. Saurabh Mathur, and Sahil Sidheekh. With a technically advanced
+        audience and dense material, the focus was on building a coherent
+        conceptual framework and bridging to adjacent areas of specialization.
+    - title: Graduate Research Assistant and Mentor
+      institution: Starling Lab, UT Dallas
+      year: Aug. 2020 - May 2026
+      maindescription: >
+        Mentored undergraduate and graduate students in reading technical
+        literature, forming research questions, debugging implementations, and
+        presenting results.
+
+- title: Presentations and Invited Talks
+  type: time_table
+  contents:
+    - title: "Tutorial: Deep Tractable Probabilistic Models"
+      institution: CODS-COMAD 2024
+      year: 2024
+      maindescription: >
+        Co-presented with S. Mathur, S. Sidheekh, and S. Natarajan.
+    - title: "Tutorial: Tractable Probabilistic Models"
+      institution: Indian Institute of Technology, Madras
+      year: Mar. 2023
+      maindescription: >
+        Co-presented with S. Natarajan, S. Mathur, and S. Sidheekh.
+
+- title: Academic Service
+  type: nested_list
+  contents:
+    - title: Program Committee / Reviewer
+      items:
+        - AAAI (2022-2025)
+        - NeurIPS (2023-2026)
+        - ICLR (2024)
+    - title: Workshop Reviewer
+      items:
+        - Neuro Causal and Symbolic AI Workshop at NeurIPS (2022)
+    - title: Journal Reviewer
+      items:
+        - Data Mining and Knowledge Discovery
+        - Journal of Artificial Intelligence Research
+
+- title: Prior Industry Experience
+  type: time_table
+  contents:
+    - title: Software Developer
+      institution: NetCracker Technology Pvt. Ltd.
+      year: 2015 - 2017
+      maindescription: >
+        Developed features for ICOMS (Integrated Communications Operations
+        Management System) across multiple product releases.

@@ -15,7 +15,7 @@ profile:
   more_info: >
     <p>ECSS 3.214, Erik Johnsson School of Engineering & Computer Science, UTD</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes conference publications on the about page
 social: true # includes social icons at the bottom of the page
 
 announcements:

@@ -13,8 +13,17 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<h2>Conference Papers</h2>
 <div class="publications">
+{% bibliography --group_by none --query @*[pubtype=conference]* %}
+</div>
 
-{% bibliography %}
+<h2>Workshop Papers</h2>
+<div class="publications">
+{% bibliography --group_by none --query @*[pubtype=workshop]* %}
+</div>
 
+<h2>Tutorials</h2>
+<div class="publications">
+{% bibliography --group_by none --query @*[pubtype=tutorial]* %}
 </div>
