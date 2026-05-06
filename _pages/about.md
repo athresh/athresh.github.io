@@ -16,6 +16,7 @@ profile:
     <p>ECSS 3.214, Erik Johnsson School of Engineering & Computer Science, UTD</p>
 
 selected_papers: true # includes conference publications on the about page
+dissertation_pdf: Dissertation-Athresh-Final.pdf
 social: true # includes social icons at the bottom of the page
 
 announcements:

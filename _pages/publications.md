@@ -13,6 +13,11 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<h2>Dissertation</h2>
+<div class="publications">
+{% bibliography --group_by none --query @*[pubtype=dissertation]* %}
+</div>
+
 <h2>Preprints</h2>
 <div class="publications">
 {% bibliography --group_by none --query @*[pubtype=preprint]* %}

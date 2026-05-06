@@ -7,7 +7,8 @@
       year: May 2026
       maindescription: >
         <strong>Dissertation:</strong> <em>Effective, Efficient, and Explainable
-        Learning in Data-Scarce and Noisy Domains</em><br>
+        Learning in Data-Scarce and Noisy Domains</em>
+        (<a href="/assets/pdf/Dissertation-Athresh-Final.pdf" target="_blank" rel="noopener noreferrer">PDF</a>)<br>
         <strong>Advisor:</strong> Prof. Sriraam Natarajan
     - title: B.Tech. in Civil Engineering
       institution: Indian Institute of Technology, Guwahati
@@ -34,6 +35,12 @@
       year: 2025
       maindescription: >
         <strong>Karanam, A.</strong>, Mathur, S., Sidheekh, S., Natarajan, S.
+    - title: Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes
+      institution: Pacific Symposium on Biocomputing (PSB 2023)
+      year: 2023
+      maindescription: >
+        Mathur, S., <strong>Karanam, A.</strong>, Radivojac, P., Haas, D. M.,
+        Kersting, K., Natarajan, S.
     - title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
       institution: Advances in Neural Information Processing Systems (NeurIPS 2022)
       year: 2022
@@ -45,12 +52,6 @@
       maindescription: >
         <strong>Karanam, A.</strong>, Mathur, S., Radivojac, P., Kersting, K.,
         Natarajan, S.
-    - title: Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes
-      institution: Pacific Symposium on Biocomputing (PSB 2023)
-      year: 2023
-      maindescription: >
-        Mathur, S., <strong>Karanam, A.</strong>, Radivojac, P., Haas, D. M.,
-        Kersting, K., Natarajan, S.
     - title: Interventional Sum-Product Networks - Causal Inference with Tractable Probabilistic Models
       institution: Advances in Neural Information Processing Systems (NeurIPS 2021)
       year: 2021
@@ -158,7 +159,7 @@
         conceptual framework and bridging to adjacent areas of specialization.
     - title: Graduate Research Assistant and Mentor
       institution: Starling Lab, UT Dallas
-      year: Aug. 2020 - May 2026
+      year: Aug. '20 - May '26
       maindescription: >
         Mentored undergraduate and graduate students in reading technical
         literature, forming research questions, debugging implementations, and
