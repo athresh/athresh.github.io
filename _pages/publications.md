@@ -13,6 +13,11 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<h2>Preprints</h2>
+<div class="publications">
+{% bibliography --group_by none --query @*[pubtype=preprint]* %}
+</div>
+
 <h2>Conference Papers</h2>
 <div class="publications">
 {% bibliography --group_by none --query @*[pubtype=conference]* %}

@@ -96,6 +96,9 @@
       maindescription: >
         Prabhakar, N., Balaji, V., <strong>Karanam, A.</strong>, Kersting, K.,
         Natarajan, S.
+      linkitems:
+        - link: /assets/pdf/papers/Neurosymbolic_Imitation_Learning_under_review_ECML2026.pdf
+          linkname: PDF
 
 - title: Research Experience
   type: time_table
