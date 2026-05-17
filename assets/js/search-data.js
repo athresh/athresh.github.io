@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-photos",
+          title: "Photos",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/photos/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -376,7 +383,10 @@ ninja.data = [{
         
       },
     },{id: "news-defended-my-ph-d-dissertation-tada",
-          title: 'Defended my Ph.D. dissertation. :tada:',
+          title: 'Defended my Ph.D. dissertation :tada:',
+          description: "",
+          section: "News",},{id: "news-graduated-with-my-ph-d-in-computer-science-photos-from-the-hooding-ceremony-mortar-board",
+          title: 'Graduated with my Ph.D. in Computer Science! Photos from the hooding ceremony :mortar_board:...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
