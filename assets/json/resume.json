@@ -163,15 +163,7 @@
     },
     {
       "name": "Technical Skills",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "Java",
-        "MATLAB",
-        "R",
-        "Git",
-        "SQL"
-      ]
+      "keywords": ["Python", "PyTorch", "Java", "MATLAB", "R", "Git", "SQL"]
     }
   ],
   "languages": [],
