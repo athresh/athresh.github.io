@@ -51,11 +51,16 @@ jobs:
       - name: Build 🔧
         run: |
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          time bundle exec jekyll build --profile
+      - name: Setup Node 📦
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
       - name: Purge unused CSS 🧹
         run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+          time npm install -g purgecss
+          time purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
