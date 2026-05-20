@@ -25,7 +25,6 @@ RUN apt-get update -y && \
         build-essential \
         curl \
         git \
-        imagemagick \
         inotify-tools \
         locales \
         nodejs \

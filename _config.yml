@@ -87,7 +87,6 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-get-json
-  - jekyll-imagemagick
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-regex-replace
@@ -186,27 +185,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
-# -----------------------------------------------------------------------------
-# Responsive WebP Images
-# -----------------------------------------------------------------------------
-
-imagemagick:
-  enabled: true
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
-  output_formats:
-    webp: "-quality 85"
 
 lazy_loading_images: true
 

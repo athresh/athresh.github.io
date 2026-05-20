@@ -6,7 +6,6 @@ gem 'jekyll'
 group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-regex-replace'
