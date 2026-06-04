@@ -28,78 +28,21 @@
     - Python, PyTorch, Java, MATLAB, R, Git, SQL.
 
 - title: Conference Papers
-  type: time_table
-  contents:
-    - title: A Unified Framework for Human-Allied Learning of Probabilistic Circuits
-      institution: AAAI Conference on Artificial Intelligence (AAAI 2025)
-      year: 2025
-      maindescription: >
-        <strong>Karanam, A.</strong>, Mathur, S., Sidheekh, S., Natarajan, S.
-    - title: Exploiting Domain Knowledge as Causal Independencies in Modeling Gestational Diabetes
-      institution: Pacific Symposium on Biocomputing (PSB 2023)
-      year: 2023
-      maindescription: >
-        Mathur, S., <strong>Karanam, A.</strong>, Radivojac, P., Haas, D. M.,
-        Kersting, K., Natarajan, S.
-    - title: "Orient: Submodular Mutual Information Measures for Data Subset Selection under Distribution Shift"
-      institution: Advances in Neural Information Processing Systems (NeurIPS 2022)
-      year: 2022
-      maindescription: >
-        <strong>Karanam, A.</strong>, Killamsetty, K., Kokel, H., Iyer, R.
-    - title: Explaining Deep Tractable Probabilistic Models - The Sum-Product Network Case
-      institution: International Conference on Probabilistic Graphical Models (PGM 2022)
-      year: 2022
-      maindescription: >
-        <strong>Karanam, A.</strong>, Mathur, S., Radivojac, P., Kersting, K.,
-        Natarajan, S.
-    - title: Interventional Sum-Product Networks - Causal Inference with Tractable Probabilistic Models
-      institution: Advances in Neural Information Processing Systems (NeurIPS 2021)
-      year: 2021
-      maindescription: >
-        Zecevic, M., Dhami, D. S., <strong>Karanam, A.</strong>, Natarajan, S.,
-        Kersting, K.
-    - title: A Probabilistic Approach to Extract Qualitative Knowledge for Early Prediction of Gestational Diabetes
-      institution: International Conference on Artificial Intelligence in Medicine (AIME 2021)
-      year: 2021
-      maindescription: >
-        <strong>Karanam, A.</strong>, Hayes, A. L., Kokel, H., Haas, D. M.,
-        Radivojac, P., Natarajan, S.
+  type: bibliography
+  pubtype: conference
 
 - title: Workshop Papers
-  type: time_table
-  contents:
-    - title: Test-Time Active Feature Selection through Tractable Acquisition Functions
-      institution: Tractable Probabilistic Modeling Workshop, UAI 2023
-      year: 2023
-      maindescription: >
-        <strong>Karanam, A.</strong>, Natarajan, S.
-    - title: Bayesian Learning of Probabilistic Circuits with Domain Constraints
-      institution: Tractable Probabilistic Modeling Workshop, UAI 2023
-      year: 2023
-      maindescription: >
-        <strong>Karanam, A.</strong>, Mathur, S., Sidheekh, S., Natarajan, S.
+  type: bibliography
+  pubtype: workshop
 
 - title: Tutorials
-  type: time_table
-  contents:
-    - title: Deep Tractable Probabilistic Models
-      institution: Tutorial at CODS-COMAD 2024
-      year: 2024
-      maindescription: >
-        Mathur, S., Sidheekh, S., <strong>Karanam, A.</strong>, Natarajan, S.
+  type: bibliography
+  pubtype: tutorial
 
 - title: Preprints and Under Review
-  type: time_table
-  contents:
-    - title: Neurosymbolic Imitation Learning with Human Guidance - A Privileged Information Approach
-      institution: Under review
-      year: 2026
-      maindescription: >
-        Prabhakar, N., Balaji, V., <strong>Karanam, A.</strong>, Kersting, K.,
-        Natarajan, S.
-      linkitems:
-        - link: /assets/pdf/papers/Neurosymbolic_Imitation_Learning_under_review_ECML2026.pdf
-          linkname: PDF
+  type: bibliography
+  pubtype: preprint
+  show_links: true
 
 - title: Research Experience
   type: time_table

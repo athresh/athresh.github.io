@@ -44,6 +44,7 @@ GEM
     csl-styles (1.0.1.11)
       csl (~> 1.0)
     cssminify2 (2.0.1)
+    csv (3.3.2)
     deep_merge (1.2.2)
     drb (2.2.1)
     em-websocket (0.5.3)
@@ -215,6 +216,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  csv
   jekyll
   jekyll-email-protect
   jekyll-get-json

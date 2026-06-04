@@ -159,6 +159,8 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    cv_title,
+    cv_venue,
     google_scholar_id,
     html,
     inspirehep_id,

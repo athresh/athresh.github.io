@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'csv' # required explicitly on Ruby 3.4+ for Jekyll
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do

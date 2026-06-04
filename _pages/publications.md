@@ -18,7 +18,7 @@ nav_order: 2
 {% bibliography --group_by none --query @*[pubtype=dissertation]* %}
 </div>
 
-<h2>Preprints</h2>
+<h2>Preprints and Under Review</h2>
 <div class="publications">
 {% bibliography --group_by none --query @*[pubtype=preprint]* %}
 </div>
